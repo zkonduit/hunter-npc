@@ -33,3 +33,14 @@ You can then run the notebook in `notebooks/npc.ipynb` the outputs of this will 
 
 You can find sample contracts (and corresponding abi) in the `outputs` directory.
 
+### Lifecycle of a proof 
+
+1. call `ezkl.gen_witness` when the state on chain updates (eg. the player moves and now you need to update the hunter) to create a new `proposed_output`. 
+2. call `ezkl.prove` to generate a new proof for that data. 
+3. call some (not inplemented here) wrapper contract with an `updateState(proof, proposed_move (1 of 4))` method which governs new moves for the NPC on-chain. 
+4. this function will make a subcall to to ezkl verifier's `verifyProof` method where `calldata proof` is just the proof it has received and `instances` is the concatenation of current_state and proposed_move into a flat array. So `instances = [player_x, player_y, hunter_x, hunter_y, proposed_move]`. 
+
+This lifecycle can easily be automated with a bot that listens to the chain and updates the hunter NPC state accordingly. We can do this using the `web3` library in python, the ezkl `lilith` cluster, or directly in the player's browser using the ezkl js bindings (i.e the player when they move have to also computer a proof for the hunter to move, ergo they sort of run their own enemy in their browser).
+
+
+
