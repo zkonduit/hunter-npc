@@ -28,6 +28,6 @@ jupyter-lab
 ```
 
 You can then run the notebook in `notebooks/npc.ipynb` the outputs of this will be 
-- sprover and verifier key pairs for the zkSNARK of the hunter NPC
-- evm contract code for the hunter NPC verifier
+- prover and verifier key pairs for the zkSNARK of the hunter NPC
+- EVM contract code for the hunter NPC verifier
 
