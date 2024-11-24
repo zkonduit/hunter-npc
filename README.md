@@ -31,3 +31,5 @@ You can then run the notebook in `notebooks/npc.ipynb` the outputs of this will 
 - prover and verifier key pairs for the zkSNARK of the hunter NPC
 - EVM contract code for the hunter NPC verifier
 
+You can find sample contracts (and corresponding abi) in the `outputs` directory.
+

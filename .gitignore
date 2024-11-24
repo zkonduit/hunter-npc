@@ -163,12 +163,10 @@ cython_debug/
 
 
 # EZKL specific
-*.key 
-*.pk 
-*.vk 
+*.key
+*.pk
+*.vk
 *.pf
-*.compiled 
+*.compiled
 *.onnx
-*.sol
-*.abi
 notebooks/*.json
