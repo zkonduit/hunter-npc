@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:3c2b314c0b8cdb637eac6ea2a9d3d4f810940994c21d175330997d00cbc84b16"
+content_hash = "sha256:6321031cddcd3971a811f385fe371c9ae7819dff370a2fef76f6f6931766a13d"
 
 [[metadata.targets]]
 requires_python = "==3.12"
@@ -739,19 +739,18 @@ files = [
 
 [[package]]
 name = "ezkl"
-version = "15.5.0"
+version = "16.2.0"
 requires_python = ">=3.7"
 summary = ""
 groups = ["default"]
 files = [
-    {file = "ezkl-15.5.0-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:c4a4d6a2a7c1467c18410dafb6ac6b307dc22eed2cd2b64d9716764b6665b296"},
-    {file = "ezkl-15.5.0-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:d1fd8d887eea984dcd906f4fbbe46cf8be2c367d2cde2d9ecb314c0a5e9d39f1"},
-    {file = "ezkl-15.5.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:37e42bb3f15991c48dcb2354625d782ffe65504a9017831605ca5df1b920b784"},
-    {file = "ezkl-15.5.0-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:69876d43fb6179852a1248bdaca167819f0cb5b5c77fe031fefa6e96338baac1"},
-    {file = "ezkl-15.5.0-cp37-abi3-musllinux_1_2_armv7l.whl", hash = "sha256:4768480dd5fdd26395f822683dd9806a6587131aedd0ecb2ba9e886d80b90d01"},
-    {file = "ezkl-15.5.0-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:89fb050cea5e85b8b310d1381fc323091a3e698bad939c30c2786c32729cb261"},
-    {file = "ezkl-15.5.0-cp37-abi3-win32.whl", hash = "sha256:85ca3199bbd3f305085a8aa3390ef3ab7be4c06b16f78b08f808cc9fb066c966"},
-    {file = "ezkl-15.5.0-cp37-abi3-win_amd64.whl", hash = "sha256:30bf9db6f4c1c3e30d50bf64f49e7eac4702c7eef4cccc4bfb691d9493e1af88"},
+    {file = "ezkl-16.2.0-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:2fdac294443e77b47ca7fa117da0a1f162aac4a557144a3d2e347e01c2259f2e"},
+    {file = "ezkl-16.2.0-cp37-abi3-macosx_10_12_x86_64.whl", hash = "sha256:e9bdc49ecb4950dc5aa2258e51cbfd08d835eebff3c2b6c7f3bc7fc65ccc3be8"},
+    {file = "ezkl-16.2.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4c9fd77fe14cba822ebe431bb17bc43b41b7a1b6899269397535e17f0b5d71d0"},
+    {file = "ezkl-16.2.0-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:460c409a1dd2ca9c818c65086ae47a22b93d8f6b2a8b94b23d9b8a5584b549bc"},
+    {file = "ezkl-16.2.0-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:3740325f600d327ac81cb55b5f4c1b9fee75405184bcf2ad8fdb5df03dc6620c"},
+    {file = "ezkl-16.2.0-cp37-abi3-win32.whl", hash = "sha256:d7527220bb50b16240a5acb4e79ab3331326009e66798a63a1aac5bf738910d0"},
+    {file = "ezkl-16.2.0-cp37-abi3-win_amd64.whl", hash = "sha256:dfe6e5cd1d16f7184eedfd06c9daacb72356bd6a0e671a9947bc774d4647d75b"},
 ]
 
 [[package]]
